@@ -100,3 +100,6 @@ public class Loops {
     }
 
 }
+
+
+//========FOR EACH LOOP========
