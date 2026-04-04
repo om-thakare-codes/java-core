@@ -66,22 +66,26 @@ public class Loops {
         input.nextLine();
 
         //========DO WHILE========
-        String option = "";
+        String option;
         do {
             System.out.println("Welcome to the game. What would you like to do?");
             System.out.println(
-                    "Start \n" +
-                            "Menu \n" +
-                            "Character \n" +
-                            "Exit \n");
+                    """
+                            Start\s
+                            Menu\s
+                            Character\s
+                            Exit\s
+                            """);
             option = input.next();
 
             if (option.equalsIgnoreCase("Start")) {
                 System.out.println("Starts Playing Game");
             } else if (option.equalsIgnoreCase("menu")) {
-                System.out.println("Records \n" +
-                        "Game Graphics \n" +
-                        "Audio Settings \n");
+                System.out.println("""
+                        Records\s
+                        Game Graphics\s
+                        Audio Settings\s
+                        """);
 
 
             } else if (option.equalsIgnoreCase("character")) {
